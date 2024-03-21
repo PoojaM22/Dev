@@ -6,7 +6,7 @@ if [[ $GIT_BRANCH == "origin/dev" ]]; then
         docker tag nginx pooja942/dev
         docker push pooja942/dev
 
-if [[ $GIT_BRANCH == "origin/master" ]]; then
+elif [[ $GIT_BRANCH == "origin/master" ]]; then
 
         docker tag nginx pooja942/prod
         docker push pooja942/prod
