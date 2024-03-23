@@ -5,5 +5,3 @@ tag="latest"
 
 docker build -t $Imagename:$tag .
 docker-compose up -d
-~                                                                                                                                                                                                                  
-~                         
